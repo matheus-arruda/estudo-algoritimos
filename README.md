@@ -162,3 +162,20 @@ LocalDate tomorrow = today.plusDays(1);
 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 String formattedDate = today.format(formatter);
 ```
+
+## **Syntax Basica Senior**
+```java
+// Ordenação
+List<Integer> list = Arrays.asList(5, 2, 9);
+Collections.sort(list);  
+
+// String para Array
+String s = "hello";
+char[] chars = s.toCharArray();  
+
+// Iterar um Map
+for (Map.Entry<Integer, String> entry : map.entrySet()) {
+    entry.getKey();
+    entry.getValue();
+}
+```
