@@ -9,13 +9,15 @@ Um guia rápido com syntax essencial, estruturas de dados e algoritmos em Java p
 ## 🔥 **Como Usar Este Documento**
 
 -  **Consulta Rápida**: Use como referência durante estudos.
-
 -  **Flashcards**: Revise as tabelas de syntax antes de entrevistas.
-
--  **Mock Interviews**: Pratique problemas clássicos com as dicas incluídas.
-
- 
+-  **Mock Interviews**: Pratique problemas clássicos com as dicas incluídas. 
 ---
+## 📚 **Guias Específicos por Tópico**
+Acesse nossos guias detalhados com problemas resolvidos:
+- [🔄 **Arrays**](/arrays/README.md) - Two Sum, Rotacionar Array
+- [🔤 **Strings**](/strings/README.md) - Palíndromos, Anagramas
+- [🌐 **Grafos**](/graphs/README.md) - BFS, DFS
+- [🧠 **Dynamic Programming**](/dynamic-programming/README.md) - Fibonacci, Knapsack
   
 
 ## 📌 **Conversões Úteis**
