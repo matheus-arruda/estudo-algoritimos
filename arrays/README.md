@@ -80,3 +80,32 @@ private void reverse(int[] nums, int start, int end) {
 }
 ```
 -   **Complexidade**: O(n) tempo, O(1) espaço.
+
+----------
+
+## 3. Counting/Frequency Sort
+
+**Enunciado**
+Dado um array de inteiros onde todos os elementos estão no intervalo de `0` a `99`, conte quantas vezes cada valor aparece e retorne um array de frequência com 100 elementos.
+
+### 🔍 Solução  (Contagem de Ocorrência)
+ - Crie um array de tamanho 100 com todos os valores iniciando em zero.
+ - Para cada número no array de entrada, incremente a contagem na posição correspondente.
+ - Retorne o array de contagem.
+
+```java
+public static List<Integer> countingSort(List<Integer> arr) {
+        int[] count = new int[100]; // intervalo fixo conhecido
+
+        for (int num : arr) {
+            count[num]++;
+        }
+
+        List<Integer> result = new ArrayList<>();
+        for (int value : count) {
+            result.add(value);
+        }
+        
+        return result;
+    }
+```
